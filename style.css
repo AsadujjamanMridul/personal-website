@@ -82,7 +82,7 @@ li a{
     font-family: 'Bebas Neue', cursive;
     margin-top: 0%;
     margin-bottom: 0%;
-    font-weight: medium;
+    font-weight: normal;
 }
 
 .half-width{
@@ -135,7 +135,7 @@ li a{
 
 .project-section{
     background-color: #F8F9FC;
-    padding: 150px 130px 120px 150px;
+    padding: 100px 150px;
 }
 
 .project-title{
@@ -156,6 +156,65 @@ li a{
     padding-left: 5%;
     line-height: 1.5em;
     padding-bottom: 5%;
+}
+
+.achievement-section{
+    background-color: #FFF7F7;
+    padding: 100px 150px;
+}
+
+.achievement-showcase{
+    margin: 0 auto;
+    height: 420px;
+}
+
+.certificate{
+    float: left;
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 3%;
+
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 6.58px 20px rgba(0,0,0,.07);
+}
+
+.certificate img{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 5% 0 2% 5%;
+}
+
+.certificate-1{
+    background-image: linear-gradient(#E0EAF6, #E0EAF6);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.certificate-2{
+    background-image: linear-gradient(#30A7C9,#30A7C9);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.certificate-3{
+    background-image: linear-gradient(#37BEA4, #37BEA4);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.certificate-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    color: #363958;
+    text-align: center;
 }
 
 .inquiry-section{
